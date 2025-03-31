@@ -78,14 +78,21 @@ body {
     font-size: 0.875rem;
     color: var(--color-gray-500);
     background-color: var(--color-white);
-    display: grid;
-    place-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     margin: 1rem;
 }
 
 header {
     width: 30rem;
+    text-align: center;
+}
+
+.header .extralight {
+    font-weight: var(--font-weight-extra-light-200);
 }
 
 .container {
