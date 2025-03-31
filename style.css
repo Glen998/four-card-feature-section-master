@@ -113,6 +113,7 @@ header {
 .container__card {
     background-color: var(--color-white);
     padding: 2rem;
+    border-top: 4px solid var(--color-primary-blue);
     box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.30);
     margin: 1rem;
     width: 300px; height: auto;
