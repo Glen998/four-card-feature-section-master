@@ -90,7 +90,17 @@ header {
 
 .container {
     display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns */
+    grid-template-rows: auto auto; /* 2 rows */
     gap: 1rem;
+
+    /* Center the grid horizontally */
+    margin: 0 auto;
+}
+
+.container__section-1, .container__section-3{
+    display: flex;
+    align-items: center;
 }
 
 .container__card {
