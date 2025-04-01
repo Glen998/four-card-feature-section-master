@@ -124,6 +124,19 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        font-family: var(--font-base);
+        font-weight: var(--font-weight-regular-400);
+        font-size: 0.875rem;
+        color: var(--color-gray-500);
+        background-color: var(--color-white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+    }
+
     .container {
     display: grid;
     grid-template-columns: repeat(1, 1fr); /* 3 columns */
