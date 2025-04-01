@@ -127,7 +127,7 @@ header {
     body {
         font-family: var(--font-base);
         font-weight: var(--font-weight-regular-400);
-        font-size: 0.875rem;
+        font-size: 1rem;
         color: var(--color-gray-500);
         background-color: var(--color-white);
         display: flex;
