@@ -87,7 +87,7 @@ body {
 }
 
 header {
-    width: 40%;
+    width: 50%;
     text-align: center;
     margin: 0 auto;
 }
@@ -152,5 +152,9 @@ header {
         margin: 1rem 0;
         width: 100%; height: auto;
         border-radius: 8px;
+    }
+
+    .header {
+        width: 100%;
     }
   }
